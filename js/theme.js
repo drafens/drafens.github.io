@@ -1,7 +1,10 @@
-$(document).ready(function() {
-	new WOW().init();
 
-	$('a[href="#search"]').on('click', function(event) {                    
+ 
+
+$(document).ready(function() {
+new WOW().init();
+
+$('a[href="#search"]').on('click', function(event) {                    
 		$('#search').addClass('open');
 		$('#search > form > input[type="search"]').focus();
 	});            
