@@ -13,11 +13,6 @@
     -webkit-transform: translateY(0);
     transform: translateY(0);
 }
-@media (max-width: 768px) {
-    .waifu {
-        display: none;
-    }
-}
 .waifu-tips {
     opacity: 0;
     width: 250px;
@@ -37,6 +32,12 @@
     animation-iteration-count: infinite;
     animation-name: shake;
     animation-timing-function: ease-in-out;
+}
+@media (max-width: 768px) {
+    .waifu-tips {
+        width: 125px;
+        height: 40px;
+    }
 }
 .waifu #live2d{
     position: relative;
