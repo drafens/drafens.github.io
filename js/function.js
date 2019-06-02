@@ -22,7 +22,7 @@ if (window.matchMedia("(max-width: 768px)").matches) {
     canvas.height = "250";
 }
 
-//切换主界面
+//切换主界面div
 const divs = ["home", "about-me", "thanks"];
 function switchDivs(tag) {
     let div;
@@ -34,3 +34,4 @@ function switchDivs(tag) {
             div.style.display = "none";
     }
 }
+	

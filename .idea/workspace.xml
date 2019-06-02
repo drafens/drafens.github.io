@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9268b2c7-bfa6-4784-bfd1-e084f4c6c7dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/drafens.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/drafens.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdn/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdn/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdn/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdn/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdn/headroom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdn/highlight.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdn/instantclick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdn/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdn/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdn/wow.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/function.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/instantclick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/wow.min.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3553">
-              <caret line="187" column="49" selection-start-line="187" selection-start-column="49" selection-end-line="187" selection-end-column="49" />
+              <caret line="193" column="49" selection-start-line="193" selection-start-column="49" selection-end-line="193" selection-end-column="49" />
               <folding>
                 <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -51,8 +62,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/function.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="581">
+              <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/theme.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -90,15 +110,15 @@
         <option value="$PROJECT_DIR$/js/theme.js" />
         <option value="$PROJECT_DIR$/css/live2d.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/js/function.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/function.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="76" />
-    <option name="width" value="1760" />
+    <option name="x" value="31" />
+    <option name="y" value="41" />
+    <option name="width" value="1248" />
     <option name="height" value="950" />
   </component>
   <component name="ProjectView">
@@ -113,11 +133,6 @@
             <path>
               <item name="drafens" type="b2602c69:ProjectViewProjectNode" />
               <item name="drafens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="drafens" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drafens" type="462c0819:PsiDirectoryNode" />
-              <item name="cdn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="drafens" type="b2602c69:ProjectViewProjectNode" />
@@ -138,7 +153,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../webstorm/homepage" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -167,16 +182,17 @@
       <workItem from="1559364304946" duration="13456000" />
       <workItem from="1559401744210" duration="1447000" />
       <workItem from="1559453108099" duration="654000" />
+      <workItem from="1559456839159" duration="791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15557000" />
+    <option name="totallyTimeSpent" value="16348000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="76" width="1760" height="950" extended-state="0" />
+    <frame x="31" y="41" width="1248" height="950" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17479675" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17438017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -199,17 +215,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/theme.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3553">
-          <caret line="187" column="49" selection-start-line="187" selection-start-column="49" selection-end-line="187" selection-end-column="49" />
+          <caret line="193" column="49" selection-start-line="193" selection-start-column="49" selection-end-line="193" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -232,8 +241,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/function.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="581">
+          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
