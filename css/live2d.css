@@ -41,6 +41,10 @@
         width: 125px;
         height: 40px;
     }
+    .waifu #live2d{
+        width: 112px;
+        height: 100px;
+    }
 }
 .waifu #live2d{
     position: relative;
