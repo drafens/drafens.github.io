@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9268b2c7-bfa6-4784-bfd1-e084f4c6c7dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/live2d.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/live2d.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/function.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,13 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="182" column="10" lean-forward="true" selection-start-line="182" selection-start-column="10" selection-end-line="182" selection-end-column="10" />
-              <folding>
-                <element signature="e#5699#5705#0" expanded="true" />
-                <element signature="e#5817#5823#0" expanded="true" />
-                <element signature="e#6291#6297#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="386">
+              <caret line="181" column="10" lean-forward="true" selection-start-line="181" selection-start-column="10" selection-end-line="181" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -173,12 +166,12 @@
       <workItem from="1559401744210" duration="1447000" />
       <workItem from="1559453108099" duration="654000" />
       <workItem from="1559456839159" duration="791000" />
-      <workItem from="1559465106870" duration="2155000" />
+      <workItem from="1559465106870" duration="2740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18503000" />
+    <option name="totallyTimeSpent" value="19088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="31" y="41" width="1248" height="950" extended-state="0" />
@@ -223,13 +216,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="182" column="10" lean-forward="true" selection-start-line="182" selection-start-column="10" selection-end-line="182" selection-end-column="10" />
-          <folding>
-            <element signature="e#5699#5705#0" expanded="true" />
-            <element signature="e#5817#5823#0" expanded="true" />
-            <element signature="e#6291#6297#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="386">
+          <caret line="181" column="10" lean-forward="true" selection-start-line="181" selection-start-column="10" selection-end-line="181" selection-end-column="10" />
         </state>
       </provider>
     </entry>
