@@ -1,0 +1,70 @@
+<div class="header-global" id="header">
+<nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--not-bottom headroom--pinned headroom--top">
+	<div class="container">
+		<a class="navbar-brand mr-lg-5" onclick="location.reload()" href="">
+			<span title="DrafenS">DrafenS</span></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="navbar-collapse collapse" id="navbar_global">
+			<div class="navbar-collapse-header">
+				<div class="row">
+					<div class="col-6 collapse-brand">
+						<span title="导航栏">导航栏</span></div>
+					<div class="col-6 collapse-close">
+						<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</div>
+			<ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
+				<li class="nav-item">
+					<a onclick="switchDivs('home')" href="#" class="nav-link">首页</a></li>
+				<li class="nav-item dropdown">
+					<a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link" aria-haspopup="true">分类</a>
+					<ul class="dropdown-menu">
+						<li class="nav-item">
+							<a class="dropdown-item" href="./default/" title="默认分类">默认分类</a></li>
+					</ul>
+				</li>
+				<li class="nav-item dropdown">
+					<a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link">页面</a>
+					<ul class="dropdown-menu">
+						<li class="nav-item">
+							<a class="dropdown-item" href="#" onclick="switchDivs('about-me')" title="关于">关于</a></li>
+						<li class="nav-item">
+							<a class="dropdown-item" href="#" onclick="switchDivs('thanks')" title="感谢">感谢</a></li>
+						<li class="nav-item">
+							<a class="dropdown-item" href="./img.html" title="图库">图库</a></li>
+						<li class="nav-item">
+							<a class="dropdown-item" href="./tag.html" title="标签云">标签云</a></li>
+						<li class="nav-item">
+							<a class="dropdown-item" href="./archives.html" title="文章归档">文章归档</a></li>
+					</ul>
+				</li>
+				<li class="nav-item">
+					<a href="#search" class="nav-link">
+						<i class="fa fa-search"></i>Search</a>
+				</li>
+			</ul>
+			<div id="search">
+				<span class="close">X</span>
+				<form role="search" id="searchform" method="post" action="index.html">
+					<label>
+						<input type="search" name="s" value="" placeholder="输入关键字搜索" /></label>
+				</form>
+			</div>
+		</div>
+	</div>
+</nav>
+</div>
+		
+    <div class="banner-box" id="banner-box">
+      <div class="banner-bar">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none">
+          <polygon style="fill:#fff" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </div>
