@@ -342,9 +342,9 @@ a:focus,a:active{color:#ff5f33;}
 
 
 
-/*Í¨ÓÃ*/
+/*é€šç”¨*/
 .container {
-	width:100%;
+	width:90%;
 	margin-right:auto;
 	margin-left:auto;
 	padding-right:15px;
@@ -356,11 +356,11 @@ a:focus,a:active{color:#ff5f33;}
 		/* max-width:540px; */
 	/* } */
 /* } */
-/* @media (min-width:768px) { */
-	/* .container { */
-		/* max-width:720px; */
-	/* } */
-/* } */
+@media (max-width:768px) {
+	.container {
+		width:100%;
+	}
+}
 /* @media (min-width:992px) { */
 	/* .container { */
 		/* max-width:960px; */
