@@ -19,14 +19,6 @@ button,html [type=button]{-webkit-appearance:button;}
 [type=search]{outline-offset:-2px;-webkit-appearance:none;}
 hr{margin-top:2rem;margin-bottom:2rem;border:0;border-top:.0625rem solid rgba(0,0,0,.1);}
 .row{display:flex;margin-right:-15px;margin-left:-15px;flex-wrap:wrap;}
-.col-6,.col-lg-12,.col-md-12{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px;}
-.col-6{max-width:50%;flex:0 0 50%;}
-@media (min-width:768px){
-.col-md-12{max-width:100%;flex:0 0 100%;}
-}
-@media (min-width:992px){
-.col-lg-12{max-width:100%;flex:0 0 100%;}
-}
 .btn{font-size:1rem;font-weight:600;line-height:1.5;display:inline-block;padding:.625rem 1.25rem;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;text-align:center;vertical-align:middle;white-space:nowrap;border:1px solid transparent;border-radius:.25rem;}
 @media screen and (prefers-reduced-motion:reduce){
 .btn{transition:none;}
@@ -318,7 +310,7 @@ a:focus,a:active{color:#ff5f33;}
     bottom:0;
 }
 /*main*/
-.meowblog {
+.wrapper {
 	z-index:3;
 	background:#fff;
 	position:relative;
@@ -326,7 +318,7 @@ a:focus,a:active{color:#ff5f33;}
 	margin:0 auto;
 }
 @media (max-width:768px) {
-	.meowblog .entry-blog {
+	.wrapper .entry-blog {
 		border-radius:6px;
 		box-shadow:0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2);
 		z-index:3;
@@ -342,7 +334,7 @@ a:focus,a:active{color:#ff5f33;}
 
 
 
-/*通用*/
+/*bootstrap*/
 .container {
 	width:90%;
 	margin-right:auto;
@@ -351,26 +343,23 @@ a:focus,a:active{color:#ff5f33;}
 	padding-left:15px;
 	max-width:1040px;
 }
-/* @media (min-width:576px) { */
-	/* .container { */
-		/* max-width:540px; */
-	/* } */
-/* } */
 @media (max-width:768px) {
 	.container {
 		width:100%;
 	}
 }
-/* @media (min-width:992px) { */
-	/* .container { */
-		/* max-width:960px; */
-	/* } */
-/* } */
-/* @media (min-width:1200px) { */
-	/* .container { */
-		/* max-width:1040px; */
-	/* } */
-/* } */
+.col-6,.col-12{
+	position:relative;
+	width:100%;
+	min-height:1px;
+	padding-right:15px;
+	padding-left:15px;
+	flex:0 0 100%;
+}
+.col-6{
+	max-width:50%;
+	flex:0 0 50%;
+}
 
 
 

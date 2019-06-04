@@ -1,15 +1,15 @@
 $(document).ready(function() {
 new WOW().init();
 
-$('a[href="#search"]').on('click', function(event) {                    
+$('a[href="#search"]').on('click', function(event) {
 		$('#search').addClass('open');
 		$('#search > form > input[type="search"]').focus();
-	});            
+	});
 	$('#search, #search button.close').on('click keyup', function(event) {
 		if (event.target == this || event.target.className == 'close' || event.keyCode == 27) {
 			$(this).removeClass('open');
 		}
-	});   
+	});
     // Headroom - show/hide navbar on scroll
     if($('.headroom')[0]) {
         var headroom  = new Headroom(document.querySelector("#navbar-main"), {
@@ -43,12 +43,12 @@ $('a[href="#search"]').on('click', function(event) {
             template: '<div class="popover '+ popoverClass +'" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
         })
     });
-    
+
     // Additional .focus class on form-groups
     $('.form-control').on('focus blur', function(e) {
         $(this).parents('.form-group').toggleClass('focused', (e.type === 'focus' || this.value.length > 0));
-    }).trigger('blur');    
-    
+    }).trigger('blur');
+
     // NoUI Slider
     if ($(".input-slider-container")[0]) {
         $('.input-slider-container').each(function() {
