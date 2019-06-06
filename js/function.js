@@ -1,12 +1,11 @@
 $(document).ready(function() {
-    // load header/footer
-    $("header.header-global").load("./header.html");$("footer.footer-global").load("./footer.html");
     // 随机banner-image
     const banner_size = 13;
     document.getElementById("banner-box").style = "background-image: url('images/banner/banner(" + Math.floor(Math.random() * banner_size + 1) + ").jpg')";
     // open/close search
     $('a[href="#search"]').on('click',
         function () {
+            alert("search");
             $('#search').addClass('open');
             $('#search-form > label > input[type="search"]').focus();
         });
