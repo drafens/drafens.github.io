@@ -5,7 +5,6 @@ $(document).ready(function() {
     // open/close search
     $('a[href="#search"]').on('click',
         function () {
-            alert("search");
             $('#search').addClass('open');
             $('#search-form > label > input[type="search"]').focus();
         });
