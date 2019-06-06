@@ -8,13 +8,11 @@
     <title>DraN-个人主页</title>
     <meta name="keywords" content="drafens,homepage,dran"/>
     <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css">
-<!--  	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">-->
-   <link type="text/css" href="https://cdn.staticfile.org/animate.css/3.7.0/animate.min.css" rel="stylesheet">
+<!--	  <link type="text/css" href="https://cdn.staticfile.org/animate.css/3.7.0/animate.min.css" rel="stylesheet">-->
     <link type="text/css" href="./css/live2d.css" rel="stylesheet">
     <link type="text/css" href="./css/style.css" rel="stylesheet">
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
-    <script src="./js/theme.js"></script>
-
+		<script src="./js/function.js"></script>
 	</head>
 		
   <body>
@@ -26,102 +24,77 @@
 				</svg>
 			</div>
 		</div>
-		
-		
-		<!-- <main class="main-container"> -->
-			<!-- <div class="main-content"> -->
-				<!-- <div class="row"> -->
-					<!-- <div> -->
-						<!-- <div id="home" style="display:block"> -->
-							<!-- Drafens<br><p><script src="https://tenapi.cn/yiyan/get/?code=js"></script></p> -->
-						<!-- </div> -->
-					<!-- </div> -->
-					<!-- <div> -->
-						<!-- <span>null</span> -->
-					<!-- </div> -->
-				<!-- </div> -->
-			<!-- </div> -->
-			
-			<!-- <div> -->
-			<!-- </div> -->
-		<!-- </main> -->
-		
-		
-		
-		
-    <main class="wrapper">
-      <div class="main-content container">
-				<div class="row">
-					<div class="col-12 post-standard-list3-style">
-						<div class="entry-blog blog-default wow fadeInUp">
-							<div id="home" style="display:block">
-								DrafenS<br><p><script src="https://tenapi.cn/yiyan/get/?code=js"></script></p>
-							</div>
-							<div id="about-me" style="display:none">
-								<div>
-									<h2>关于我</h2>
-									<blockquote>虽然没啥干劲，但依然元气满满的世界 （づ￣3￣）づ</blockquote>
-								</div>
-								<p>
-									<strong>ID：</strong>DrafenS<br>
-									<strong>性别：</strong>男<br>
-									<strong>年龄：</strong>23<br>
-									<strong>介绍：</strong>null<del></del>
-								</p>
-							</div>
-							<div id="thanks" style="display:none">
-								&sect; 感谢<a target="_blank" href="https://alone88.cn/">「Alone88」</a>的主题和图片素材
-								<a target="_blank" href="http://typecho.alapi.cn/">「演示」</a>；
-								<br>
-								&sect; 感谢<a target="_blank" href="https://imjad.cn/">「猫与向日葵」</a>的live2D
-								<a target="_blank" href="https://imjad.cn/archives/lab/add-dynamic-poster-girl-with-live2d-to-your-blog-02">「教程」</a>
-								<a target="_blank" href="https://github.com/summerscar/live2dDemo">「素材」</a>
-								<a target="_blank" href="https://play.google.com/store/apps/details?id=com.sinsiroad.potionmaker">「药水制作师」</a>；
-								<br>
-								&sect; 感谢<a target="_blank" href="https://github.com/">「Github」</a>
-								<a target="_blank" href="https://coding.net/">「Coding」</a>开源平台
-								，托管在<a target="_blank" href="https://drafens.github.io/">「Github」</a>
-								<a target="_blank" href="https://drafens.coding.me/">「Coding」</a>的主页；
-							</div>
-					</div>
+
+    <main class="m-wrapper">
+      <div class="m-wrapper-body container">
+				<div class="row" id="home" style="display:block">
+					<div class="col-12">
+						<div class="m-box">
+							DrafenS<br><p id="motto"><script src="https://tenapi.cn/yiyan/get/?code=js"></script></p>
+						</div>
 					</div>
 				</div>
-      </div>
-			
-      <div class="paging wow swing "></div>
-			
-      <div class="container wow fadeInUp animated" data-no-instant>
-        <div class="col-12 col-12">
-			<div class="card mt40">
-				<div class="card-body">
-					<a href="https://service-h3qn8dsb-1259306598.ap-shanghai.apigateway.myqcloud.com/release/onedrive_cn/" class="btn btn-danger btn-sm justify-content-center" target="_blank" data-toggle="tooltip" data-original-title="Dran_Drive">
-						<span>Drive</span></a>
-					<a href="https://service-h3qn8dsb-1259306598.ap-shanghai.apigateway.myqcloud.com/release/onedrive_cn/ACG/" class="badge badge-secondary" style="margin-right: 15px;" target="_blank" title="ACG">动漫小站</a>
+				<div class="row" id="about-me" style="display:none">
+					<div class="col-12">
+						<div class="m-box">
+							<h2>关于我</h2>
+							<blockquote>虽然没啥干劲，但依然元气满满的世界 （づ￣3￣）づ</blockquote>
+							<p>
+								<strong>ID：</strong>DrafenS<br>
+								<strong>性别：</strong>男<br>
+								<strong>年龄：</strong>23<br>
+								<strong>介绍：</strong>null<del></del>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row" id="thanks" style="display:none">
+					<div class="col-12">
+						<div class="m-box">
+							&sect; 感谢<a target="_blank" href="https://alone88.cn/">「Alone88」</a>的主题和图片素材
+							<a target="_blank" href="http://typecho.alapi.cn/">「演示」</a>；
+							<br>
+							&sect; 感谢<a target="_blank" href="https://imjad.cn/">「猫与向日葵」</a>的live2D
+							<a target="_blank" href="https://imjad.cn/archives/lab/add-dynamic-poster-girl-with-live2d-to-your-blog-02">「教程」</a>
+							<a target="_blank" href="https://github.com/summerscar/live2dDemo">「素材」</a>
+							<a target="_blank" href="https://play.google.com/store/apps/details?id=com.sinsiroad.potionmaker">「药水制作师」</a>；
+							<br>
+							&sect; 感谢<a target="_blank" href="https://github.com/">「Github」</a>
+							<a target="_blank" href="https://coding.net/">「Coding」</a>开源平台
+							，托管在<a target="_blank" href="https://drafens.github.io/">「Github」</a>
+							<a target="_blank" href="https://drafens.coding.me/">「Coding」</a>的主页；
+						</div>
+					</div>
 				</div>
 			</div>
-        </div>
-      </div>
+
+			<div class="container" data-no-instant>
+				<div class="col-12">
+					<div class="m-card">
+						<div class="m-card-body">
+							<a href="https://service-h3qn8dsb-1259306598.ap-shanghai.apigateway.myqcloud.com/release/onedrive_cn/" class="btn btn-danger btn-sm" target="_blank" data-toggle="tooltip" data-original-title="Dran_Drive">
+								<span>Drive</span></a>
+							<a href="https://service-h3qn8dsb-1259306598.ap-shanghai.apigateway.myqcloud.com/release/onedrive_cn/ACG/" class="badge badge-secondary" style="margin-right: 15px;" target="_blank" title="ACG">动漫小站</a>
+						</div>
+					</div>
+				</div>
+			</div>
     </main>
-		
-    <footer class="footer footer-global"></footer>
+
+    <footer class="footer-global"></footer>
 		
     <div class="waifu">
         <div class="waifu-tips"></div>
         <canvas id="live2d" class="live2d" width="280" height="250"></canvas>
     </div>
-
-	<script>
-		$("header.header-global").load("./header.html");$("footer.footer-global").load("./footer.html");
-	</script>
-    <script src="./js/function.js"></script>
+<!--		<script src="https://cdn.staticfile.org/instantclick/3.1.0/instantclick.min.js" data-no-instant></script>-->
+	<!--	<script src="https://cdn.staticfile.org/wow/1.0.1/wow.min.js"></script>-->
+		<script src="https://cdn.staticfile.org/popper.js/1.7.0/popper.min.js"></script>
+		<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script src="https://cdn.staticfile.org/headroom/0.9.4/headroom.min.js"></script>
+<!--		<script data-no-instant>InstantClick.init('mousedown');</script>-->
 		<script src="./live2d/live2d.js"></script>
-		<script src="https://cdn.staticfile.org/instantclick/3.1.0/instantclick.min.js" data-no-instant></script>
-		<script src="https://cdn.staticfile.org/wow/1.0.1/wow.min.js"></script>
-    <script src="https://cdn.staticfile.org/popper.js/1.7.0/popper.min.js"></script>
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://cdn.staticfile.org/headroom/0.9.4/headroom.min.js"></script>
-    <script data-no-instant>InstantClick.init('mousedown');</script>
-    <script async src="./live2d/waifu-tips.js"></script>
-    <script type="text/javascript">loadlive2d("live2d", "./live2d/model.json");</script>
+		<script async src="./live2d/waifu-tips.js"></script>
+		<script type="text/javascript">loadlive2d("live2d", "./live2d/model.json");</script>
 	</body>
 </html>

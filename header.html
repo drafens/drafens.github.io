@@ -1,24 +1,25 @@
-<nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--not-bottom headroom--pinned headroom--top">
+<nav id="navbar-main" class="navbar navbar-expand-lg headroom headroom--not-bottom headroom--pinned headroom--top">
 	<div class="container">
-		<a class="navbar-brand mr-lg-5" onclick="location.reload()" href="">
-			<span title="DrafenS">DrafenS</span></a>
+		<a class="navbar-brand" onclick="location.reload()" href="">
+			<span title="DrafenS">DRAFENS</span></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="navbar-collapse collapse" id="navbar_global">
 			<div class="navbar-collapse-header">
 				<div class="row">
-					<div class="col-6 collapse-brand">
+					<div class="col-6">
 						<span title="导航栏">导航栏</span></div>
 					<div class="col-6 collapse-close">
 						<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+							<!--绘制close icon-->
 							<span></span>
 							<span></span>
 						</button>
 					</div>
 				</div>
 			</div>
-			<ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
+			<ul class="navbar-nav navbar-nav-hover">
 				<li class="nav-item">
 					<a onclick="switchDivs('home')" href="#" class="nav-link">首页</a></li>
 				<li class="nav-item dropdown">
@@ -32,15 +33,15 @@
 					<a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link">页面</a>
 					<ul class="dropdown-menu">
 						<li class="nav-item">
-							<a class="dropdown-item" href="#" onclick="switchDivs('about-me')" title="about me">关于</a></li>
+							<a class="dropdown-item" data-toggle="collapse" data-target="#navbar_global" href="#" onclick="switchDivs('about-me')" title="about me">关于</a></li>
 						<li class="nav-item">
-							<a class="dropdown-item" href="#" onclick="switchDivs('thanks')" title="thanks">感谢</a></li>
+							<a class="dropdown-item" data-toggle="collapse" data-target="#navbar_global" href="#" onclick="switchDivs('thanks')" title="thanks">感谢</a></li>
 						<li class="nav-item">
-							<a class="dropdown-item" href="./img.html" title="图库">图库</a></li>
+							<a class="dropdown-item" data-toggle="collapse" data-target="#navbar_global" href="./img.html" title="图库">图库</a></li>
 						<li class="nav-item">
-							<a class="dropdown-item" href="./tag.html" title="标签云">标签云</a></li>
+							<a class="dropdown-item" data-toggle="collapse" data-target="#navbar_global" href="./tag.html" title="标签云">标签云</a></li>
 						<li class="nav-item">
-							<a class="dropdown-item" href="./archives.html" title="文章归档">文章归档</a></li>
+							<a class="dropdown-item" data-toggle="collapse" data-target="#navbar_global" href="./archives.html" title="文章归档">文章归档</a></li>
 					</ul>
 				</li>
 				<li class="nav-item">
@@ -50,7 +51,7 @@
 			</ul>
 			<div id="search">
 				<span class="close">X</span>
-				<form role="search" id="searchform" method="post" action="index.html">
+				<form role="search" id="search-form" method="post" action="index.html">
 					<label>
 						<input type="search" name="s" value="" placeholder="输入关键字搜索" /></label>
 				</form>
