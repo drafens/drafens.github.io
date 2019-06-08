@@ -1,0 +1,18 @@
+{
+	{
+		"text": "感谢%s的主题和图片素材%s",
+		"para": ["Alone88","演示"],
+		"url": ["https://alone88.cn/","http://typecho.alapi.cn/"]
+	},
+	{
+		"text": "感谢%s的的live2D%s%s%s",
+		"para": ["猫与向日葵","教程","素材","药水制作师"],
+		"url": ["https://imjad.cn/","https://imjad.cn/archives/lab/add-dynamic-poster-girl-with-live2d-to-your-blog-02","https://github.com/summerscar/live2dDemo","https://play.google.com/store/apps/details?id=com.sinsiroad.potionmaker"]
+	},
+	{
+		"text": "感谢%s的主题和图片素材%s",
+		"para": ["Alone88","演示"],
+		"url": ["https://alone88.cn/","http://typecho.alapi.cn/"]
+	}
+    
+}

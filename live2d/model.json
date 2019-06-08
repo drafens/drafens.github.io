@@ -34,7 +34,8 @@
             {"file":"motions/Touch Dere3.mtn"},
             {"file":"motions/Touch Dere4.mtn"},
             {"file":"motions/Touch Dere5.mtn"},
-            {"file":"motions/Touch Dere6.mtn"}
+            {"file":"motions/Touch Dere6.mtn"},
+            {"file":"motions/Fail.mtn"}
         ],
         "tap_body":[
             {"file":"motions/Touch1.mtn"},

@@ -9,5 +9,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="instantclick" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="popper" level="application" />
+    <orderEntry type="library" name="headroom" level="application" />
+    <orderEntry type="library" name="bootstrap" level="application" />
   </component>
 </module>

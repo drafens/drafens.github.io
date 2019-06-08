@@ -54,7 +54,7 @@
         },
         {
             "selector": "#csubmit",
-            "text": "要[提交了吗，首次评论需要审核，请耐心等待~"]
+            "text": ["要[提交]^(Commit)了吗，首次评论需要审核，请耐心等待~"]
         },
         {
             "selector": ".ImageBox",
